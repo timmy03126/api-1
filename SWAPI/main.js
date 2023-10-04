@@ -2,7 +2,7 @@
 
 let buttonClicked = document.querySelector(`#button1`)
 
-let clickButton = () => {axios.get(`https://swapi.dev/api/planets`)
+let clickButton = () => {axios.get(`https://swapi.dev/api/planets?search=Alderaan`)
 .then(res => {
     for (i = 0; i < 0; i++) {
         axios.get("https://swapi.dev/api/people/5/")
